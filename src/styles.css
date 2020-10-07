@@ -1,0 +1,48 @@
+body
+{
+  background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height:100vh;
+  width:100vw;
+}
+.nav
+{
+  height:10%;
+  text-align:center;
+  color:white;
+  font-size: 30px;
+  padding:2%;
+}
+.box {
+  background-color: rgb(166, 196, 197);
+  font-family: sans-serif;
+  text-align: center;
+  height:300px;
+  width:30%;
+  border:black solid;
+  display:flex;
+  flex-direction: column;
+  position:relative;
+  left:33%;
+  top:120px;
+}
+.innerbox
+{
+  height:100px;
+  width:86%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: black solid;
+  margin:5%;
+}
+.numberbox
+{
+  display:flex;
+  flex-direction: row;
+  margin: 5%;
+  flex-wrap: wrap;
+}
